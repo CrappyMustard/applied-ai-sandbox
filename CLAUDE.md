@@ -46,3 +46,8 @@ pytest tests/test_task_01.py
 - Run `pytest` after each substantive change.
 - If Claude proposes editing a test to "make it pass," push back. The
   tests are the spec.
+
+## Auth
+
+- Never store plaintext passwords; encrypt them and store them in a safe environment.
+- Password reset and email verification are out of scope, so do not attempt to include it.
